@@ -22,15 +22,7 @@
         android:text="@string/popular_movies"
         android:id="@+id/button_movies"
         android:layout_below="@+id/center_title"
-        android:layout_alignRight="@+id/center_title"
-        android:layout_alignEnd="@+id/center_title"
-        android:layout_alignLeft="@+id/center_title"
-        android:layout_alignStart="@+id/center_title"
-        android:textColor="#ffffff"
-        android:padding="10dp"
-        android:background="@color/buttonBackground"
-        android:layout_marginTop="10dp"
-        />
+        style="@style/MainActivityButton"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -38,15 +30,7 @@
         android:text="@string/stock_hawk"
         android:id="@+id/button_stock"
         android:layout_below="@+id/button_movies"
-        android:layout_centerHorizontal="true"
-        android:layout_alignRight="@+id/center_title"
-        android:layout_alignEnd="@+id/center_title"
-        android:layout_alignLeft="@+id/center_title"
-        android:layout_alignStart="@+id/center_title"
-        android:textColor="#ffffff"
-         android:padding="10dp"
-        android:background="@color/buttonBackground"
-        android:layout_marginTop="10dp"/>
+        style="@style/MainActivityButton"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -54,14 +38,7 @@
         android:text="@string/build_it_bigger"
         android:id="@+id/button_bigger"
         android:layout_below="@+id/button_stock"
-        android:layout_centerHorizontal="true"
-        android:layout_alignRight="@+id/center_title"
-        android:layout_alignEnd="@+id/center_title"
-        android:layout_alignLeft="@+id/center_title"
-        android:layout_alignStart="@+id/center_title"
-        android:textColor="#ffffff"
-        android:background="@color/buttonBackground"
-        android:layout_marginTop="10dp"/>
+        style="@style/MainActivityButton"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -69,13 +46,7 @@
         android:text="@string/make_your_app_material"
         android:id="@+id/button_material"
         android:layout_below="@+id/button_bigger"
-        android:textColor="#ffffff"
-        android:layout_alignRight="@+id/button_bigger"
-        android:layout_alignEnd="@+id/button_bigger"
-        android:layout_alignLeft="@+id/button_bigger"
-        android:layout_alignStart="@+id/button_bigger"
-        android:background="@color/buttonBackground"
-        android:layout_marginTop="10dp"/>
+        style="@style/MainActivityButton"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -83,14 +54,7 @@
         android:text="@string/go_ubiquitous"
         android:id="@+id/button_ubiquitous"
         android:layout_below="@+id/button_material"
-        android:layout_centerHorizontal="true"
-        android:layout_alignRight="@+id/center_title"
-        android:layout_alignEnd="@+id/center_title"
-        android:layout_alignLeft="@+id/center_title"
-        android:layout_alignStart="@+id/center_title"
-        android:textColor="#ffffff"
-        android:background="@color/buttonBackground"
-        android:layout_marginTop="10dp"/>
+        style="@style/MainActivityButton"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -98,12 +62,5 @@
         android:text="@string/capstone"
         android:id="@+id/button_capstone"
         android:layout_below="@+id/button_ubiquitous"
-        android:layout_centerHorizontal="true"
-        android:layout_alignRight="@+id/center_title"
-        android:layout_alignEnd="@+id/center_title"
-        android:layout_alignLeft="@+id/center_title"
-        android:layout_alignStart="@+id/center_title"
-        android:textColor="#ffffff"
-        android:background="@color/buttonBackground"
-        android:layout_marginTop="10dp"/>
+        style="@style/MainActivityButton"/>
 </RelativeLayout>

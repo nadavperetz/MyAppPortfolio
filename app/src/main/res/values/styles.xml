@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MainActivityButton">
+        <item name="android:layout_alignLeft">@+id/center_title</item>
+        <item name="android:layout_alignRight">@+id/center_title</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@color/buttonBackground</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
 </resources>
