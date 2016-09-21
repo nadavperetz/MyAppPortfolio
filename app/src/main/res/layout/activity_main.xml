@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nadavperetz.appportfolio.MainActivity"
+    android:background="@color/mainActivityBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/my_nanodegree_apps"
+        android:id="@+id/center_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popular_movies"
+        android:id="@+id/button_movies"
+        android:layout_below="@+id/center_title"
+        android:layout_alignRight="@+id/center_title"
+        android:layout_alignEnd="@+id/center_title"
+        android:layout_alignLeft="@+id/center_title"
+        android:layout_alignStart="@+id/center_title"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:background="@color/buttonBackground"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stock_hawk"
+        android:id="@+id/button_stock"
+        android:layout_below="@+id/button_movies"
+        android:layout_centerHorizontal="true"
+        android:layout_alignRight="@+id/center_title"
+        android:layout_alignEnd="@+id/center_title"
+        android:layout_alignLeft="@+id/center_title"
+        android:layout_alignStart="@+id/center_title"
+        android:textColor="#ffffff"
+         android:padding="10dp"
+        android:background="@color/buttonBackground"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/button_bigger"
+        android:layout_below="@+id/button_stock"
+        android:layout_centerHorizontal="true"
+        android:layout_alignRight="@+id/center_title"
+        android:layout_alignEnd="@+id/center_title"
+        android:layout_alignLeft="@+id/center_title"
+        android:layout_alignStart="@+id/center_title"
+        android:textColor="#ffffff"
+        android:background="@color/buttonBackground"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/make_your_app_material"
+        android:id="@+id/button_material"
+        android:layout_below="@+id/button_bigger"
+        android:textColor="#ffffff"
+        android:layout_alignRight="@+id/button_bigger"
+        android:layout_alignEnd="@+id/button_bigger"
+        android:layout_alignLeft="@+id/button_bigger"
+        android:layout_alignStart="@+id/button_bigger"
+        android:background="@color/buttonBackground"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_ubiquitous"
+        android:id="@+id/button_ubiquitous"
+        android:layout_below="@+id/button_material"
+        android:layout_centerHorizontal="true"
+        android:layout_alignRight="@+id/center_title"
+        android:layout_alignEnd="@+id/center_title"
+        android:layout_alignLeft="@+id/center_title"
+        android:layout_alignStart="@+id/center_title"
+        android:textColor="#ffffff"
+        android:background="@color/buttonBackground"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/button_capstone"
+        android:layout_below="@+id/button_ubiquitous"
+        android:layout_centerHorizontal="true"
+        android:layout_alignRight="@+id/center_title"
+        android:layout_alignEnd="@+id/center_title"
+        android:layout_alignLeft="@+id/center_title"
+        android:layout_alignStart="@+id/center_title"
+        android:textColor="#ffffff"
+        android:background="@color/buttonBackground"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>
